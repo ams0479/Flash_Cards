@@ -1,0 +1,17 @@
+
+.rectangle-box {
+  width: 350px;
+  height: 250px;
+  background: skyblue;
+  display: table;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.rectangle-content {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: black;
+  font-size: large;
+}
