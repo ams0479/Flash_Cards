@@ -1,16 +1,23 @@
-.rectangle-box {
-  width: 350px;
-  height: 250px;
-  background: skyblue;
-  display: table;
-  margin-top: 30px;
-  margin-bottom: 30px;
+.side-two {
+  display: none;
+  border: solid skyblue;
+  background-color: skyblue;
+  cursor: pointer;
+  color: black;
+  padding: 25% 40%;
 }
 
-.rectangle-content {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+.side-one {
+  display: block;
+  border: solid skyblue;
+  background-color: skyblue;
+  cursor: pointer;
   color: black;
-  font-size: large;
+  padding: 25% 40%;
+
+
+}
+
+.side-one:hover {
+  text-decoration: underline;
 }

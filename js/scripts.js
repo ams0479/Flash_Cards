@@ -1,49 +1,11 @@
 $(document).ready(function() {
-  $("#JS").click(function() {
-    alert("Description of JS");
-  });
+ $(".side-one").click(function() {
+   $(".side-two").toggle();
+   $(".side-one").toggle();
+   });
 
-  $("#Operators").click(function() {
-    alert("Description of Operators");
-  });
-
-  $("#Variables").click(function() {
-    alert("Description of Variables");
-  });
-
-  $("#Functions").click(function() {
-    alert("Description of Functions");
-  });
-
-  $("#Methods").click(function() {
-    alert("Description of Methods");
-  });
-
-  $("#Arguments").click(function() {
-    alert("Description of Arguments");
-  });
-
-  $("#Parameters").click(function() {
-    alert("Description of Parameters");
-  });
-
-  $("#Return").click(function() {
-    alert("Description of Return");
-  });
-
-  $("#Chaining_Methods").click(function() {
-    alert("Description of Chaining Methods");
-  });
-
-  $("#Strings").click(function() {
-    alert("Description of Strings");
-  });
-
-  $("#Booleans").click(function() {
-    alert("Description of Booleans");
-  });
-
-  $("#Undefined").click(function() {
-    alert("Description of Undefined");
-  });
+ $(".side-two").click(function() {
+   $(".side-one").toggle();
+   $(".side-two").toggle();
+   });
 });
