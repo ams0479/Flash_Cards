@@ -1,23 +1,35 @@
-.side-two {
+#side-two-JS {
   display: none;
-  border: solid skyblue;
-  background-color: skyblue;
-  cursor: pointer;
-  color: black;
-  padding: 25% 40%;
 }
 
-.side-one {
-  display: block;
-  border: solid skyblue;
-  background-color: skyblue;
-  cursor: pointer;
-  color: black;
-  padding: 25% 40%;
-
-
+#side-two-Op {
+  display: none;
 }
 
-.side-one:hover {
+#side-two-Var {
+  display: none;
+}
+
+#side-two-Func {
+  display: none;
+}
+
+#side-two-Meth {
+  display: none;
+}
+
+#side-two-Arg {
+  display: none;
+}
+
+.Term_side:hover {
+  cursor: pointer;
   text-decoration: underline;
+}
+
+.Term_side {
+  background: skyblue;
+  display: block;
+  text-align: center;
+
 }
